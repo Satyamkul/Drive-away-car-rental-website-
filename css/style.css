@@ -55,49 +55,8 @@ h6,
     z-index: 99;
 }
 
-.nav-bar::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 50%;
-    top: 0;
-    left: 0;
-    background: var(--dark);
-}
-
-.nav-bar::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 50%;
-    bottom: 0;
-    left: 0;
-    background: #ffffff;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    padding: 30px 15px;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--light);
-    outline: none;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary);
-}
-
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link  {
-        padding: 10px 15px;
-    }
-}
-
 .carousel-caption {
-    top: 0;
+    top:0;
     left: 0;
     right: 0;
     bottom: 0;
